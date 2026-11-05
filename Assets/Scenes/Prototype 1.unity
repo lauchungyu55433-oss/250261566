@@ -492,6 +492,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2119340734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &48347261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1511114609136056, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_Name
+      value: Tank A
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.1172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.622
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 22.066
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4066970842593808, guid: f9727673867478442a654f6e143b645d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973072359406256472, guid: f9727673867478442a654f6e143b645d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.52
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9727673867478442a654f6e143b645d, type: 3}
 --- !u!1 &57010304
 GameObject:
   m_ObjectHideFlags: 0
@@ -49631,7 +49693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInstructions:
-  - agentConfiguration: {fileID: 11400000, guid: 194678e37891244b78d3ad8b21d3f878,
+  - agentConfiguration: {fileID: 11400000, guid: c1de6ed68460d58438ce676f2e587ce7,
       type: 2}
     delayToSpawn: 1
     startingNode: {fileID: 380941445}
@@ -95251,12 +95313,12 @@ PrefabInstance:
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
       propertyPath: mapSize.x
-      value: -41.927406
+      value: -41.925972
       objectReference: {fileID: 0}
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
       propertyPath: mapSize.y
-      value: -37.8377
+      value: -37.831413
       objectReference: {fileID: 0}
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
@@ -95271,12 +95333,12 @@ PrefabInstance:
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
       propertyPath: mapSize.width
-      value: 73.34216
+      value: 73.343475
       objectReference: {fileID: 0}
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
       propertyPath: mapSize.height
-      value: 73.158356
+      value: 73.16089
       objectReference: {fileID: 0}
     - target: {fileID: 114348589391522652, guid: 28035762430e74813854d9ca46df3ebd,
         type: 3}
@@ -192087,3 +192149,4 @@ SceneRoots:
   - {fileID: 1101049366}
   - {fileID: 201650143}
   - {fileID: 1692306172}
+  - {fileID: 48347261}
